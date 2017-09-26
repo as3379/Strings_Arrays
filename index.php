@@ -73,7 +73,7 @@ class main
 	function __construct()
 	{
 		$string = "Hello world welcome to my php website";
-		echo '<h1>Find 10 Strings Functions and 10 Array fucntions Below </h1>';
+		echo '<h1>Find 10 Strings Functions and 10 Array fucntions Below; </h1>';
 	        
 		echo '<h3>The string used in this excercise is: ' . $string .  '</h3>' ;
 		
@@ -147,7 +147,7 @@ class main
 
     function stringStrRepeat($string)
 	{
-	echo '<h1>this is the str_repeat string string</h1>';
+	echo '<h1>this is the str_repeat string</h1>';
 
 	echo str_repeat($string, 3);
 	echo '<hr>';
@@ -170,7 +170,7 @@ class main
     {
     		echo '<h1>this is the strlen string</h1>';
 
-    		echo "the length of the string is: ".strlen($string);
+    		`echo "the length of the string is: ".strlen($string);
 
     		echo '<hr>';
 
